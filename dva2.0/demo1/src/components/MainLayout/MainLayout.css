@@ -1,13 +1,19 @@
 
 .normal {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
 }
 
 .content {
   flex: 1;
   display: flex;
+	flex-basis: calc(100 - 200px);
+}
+
+.myMenu {
+	flex-basis: 200px !important;
+	height: 100vh;
 }
 
 .main {
