@@ -53,7 +53,7 @@ export default connect(mapStateToProps)(Users);
 ```
 
 然后，访问 [http://localhost:8000/#/users](http://localhost:8000/#/users)，就可以看到如下：
-![Route Component: Users]('./docs/images/demo1.png')
+![Route Component: Users](docs/images/demo1.png')
  
  
 
@@ -71,6 +71,9 @@ subscriptions: {
     },
   },
 ```
+
+浏览器访问[http://localhost:8000/#/users](http://localhost:8000/#/users)，就可以看到如下：
+![users列表](docs/images/d2.png')
 
 #### 4. 继续参考原教程直到结束
 
