@@ -1,9 +1,31 @@
 # dva2.0 教程
+## 跳过教程直接查看页面效果
+1. clone代码
+```bash
+git clone https://github.com/ssehacker/examples.git
+```
+
+2. 进入dva2工作目录
+```bash
+cd examples/dva2.0/demo1
+```
+
+3. 安装依赖
+```bash
+npm i
+```
+
+4. 查看效果
+浏览器访问 [http://localhost:8000/#/users](http://localhost:8000/#/users)
+
+
+## 一步一步操作
 
 #### 1. 参照如下教程
 
 [dva1.x教程](https://github.com/sorrycc/blog/issues/18)
 一步步操作，一直到`Step 3. 配置代理，能通过 RESTFul 的方式访问 `
+> 启示和dva1 差别不大
 
 #### 2. 添加users路由
 由于目前脚手架不支持dva2.x添加路由，这里手动添加
@@ -53,7 +75,7 @@ export default connect(mapStateToProps)(Users);
 ```
 
 然后，访问 [http://localhost:8000/#/users](http://localhost:8000/#/users)，就可以看到如下：
-![Route Component: Users](docs/images/demo1.png')
+![Route Component: Users](docs/images/demo1.png)
  
  
 
@@ -73,7 +95,7 @@ subscriptions: {
 ```
 
 浏览器访问[http://localhost:8000/#/users](http://localhost:8000/#/users)，就可以看到如下：
-![users列表](docs/images/d2.png')
+![users列表](docs/images/d2.png)
 
 #### 4. 继续参考原教程直到结束
 
