@@ -22,7 +22,9 @@ function MyMenu({ location, className }) {
         <Menu.Item key="/users">
           <Link to="/users"><Icon type="bars" />Users</Link>
         </Menu.Item>
-        <Menu.Item key="11">Option 11</Menu.Item>
+        <Menu.Item key="/day1">
+          <Link to="/day1"><Icon type="bars" />day1</Link>
+        </Menu.Item>
         <Menu.Item key="12">Option 12</Menu.Item>
       </SubMenu>
     </Menu>
